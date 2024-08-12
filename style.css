@@ -14,8 +14,9 @@ body{
 img{
 	width: 50px;
 	height: 50px;
+	border-radius: 50px;
 }
-.ler, .music, .movie{
+.ler, .music, .movie, .game{
 	width: 50px;
 	height: 50px;
 	background-color: white;
@@ -26,19 +27,22 @@ img{
 	border-radius: 20px;
 	transition: 1s;
 }
-.ler:hover, .music:hover, .movie:hover{
+.ler:hover, .music:hover, .movie:hover, .game:hover{
 	width: 230px;
 	height: 50px;
 	
 }
 .ler:hover{
-    background-color: #FFC4C7;
+    color: #F5ADC1;
 }
 .music:hover{
-    background-color: #C1C3DE;
+    color: #CABFDB;
 }
 .movie:hover{
-    background-color:#C5D9C7;
+    color:#ABC6DB;
+}
+.game:hover{
+    color:#B5CEAE;
 }
 p{
 	margin-left: 20px;
